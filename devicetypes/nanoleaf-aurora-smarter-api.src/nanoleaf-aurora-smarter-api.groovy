@@ -10,12 +10,13 @@
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
  *
+ *  Unofficially forked from https://github.com/LoganFraser/NanoleafAuroraHandler/blob/master/NanoleafAuroraSmarterAPI.groovy
  */
  
 import groovy.json.JsonSlurper
 
 metadata {
-	definition (name: "Nanoleaf Aurora Smarter API", namespace: "SteveTheGeekAH", author: "Steve The Geek") {
+	definition (name: "Nanoleaf Aurora Smarter API", namespace: "brith2o", author: "Matt Pearson") {
 		capability "Light"
 		capability "Switch Level"
 		capability "Switch"
